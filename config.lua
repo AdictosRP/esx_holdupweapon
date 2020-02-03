@@ -7,50 +7,44 @@ Config.Marker = {
 	DrawDistance = 15.0, Type = 1    -- default circle type, low draw distance due to indoors area
 }
 
-Config.PoliceNumberRequired = 2
+Config.PoliceNumberRequired = 3
 Config.TimerBeforeNewRob    = 1800 -- The cooldown timer on a store after robbery was completed / canceled, in seconds
 
 Config.MaxDistance    = 20   -- max distance from the robbary, going any longer away from it will to cancel the robbary
 
 Stores = {
 	["AmmoNation1"] = {
-		position = { x = 807.94, y = -2159.67, z = 29.03 },
+		position = { x = 807.94, y = -2159.67, z = 29.63 },
 		nameOfStore = "AmmoNation (Cypress Flats)",
 		secondsRemaining = 350, -- seconds
 		lastRobbed = 0
 	},
 	["AmmoNation2"] = {
-		position = { x = 24.97, y = -1105.96, z = 29.28 },
+		position = { x = 24.97, y = -1105.96, z = 29.8 },
 		nameOfStore = "AmmoNation (PillBox Hill)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
 	},
 	["AmmoNation3"] = {
-		position = { x = 839.86, y = -1035.8, z = 27.49 },
+		position = { x = 839.86, y = -1035.8, z = 28.19 },
 		nameOfStore = "AmmoNation (lA mESA)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
 	},
 	["AmmoNation4"] = {
-		position = { x = -659.7, y = -933.34, z = 21.23 },
+		position = { x = -659.7, y = -933.34, z = 21.83 },
 		nameOfStore = "AmmoNation (Cypress Flats)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
 	},
-	["AmmoNation5"] = {
-		position = { x = -659.7, y = -933.34, z = 21.23 },
-		nameOfStore = "AmmoNation (Little Seoul)",
-		secondsRemaining = 200, -- seconds
-		lastRobbed = 0
-	},
 	["AmmoNation6"] = {
-		position = { x = -1304.25, y = -397.22, z = 36.01 },
+		position = { x = -1304.25, y = -397.22, z = 36.70 },
 		nameOfStore = "AmmoNation (MorningWood)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
 	},
 	["AmmoNation7"] = {
-		position = { x = 253.42, y = -53.13, z = 69.24 },
+		position = { x = 253.42, y = -53.13, z = 69.94 },
 		nameOfStore = "AmmoNation (Hawick)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
@@ -68,13 +62,13 @@ Stores = {
 		lastRobbed = 0
 	},
 	["AmmoNation10"] = {
-		position = { x = -330.23, y = 6083.88, z = 30.95 },
+		position = { x = -330.04, y = 6087.03, z = 31.45 },
 		nameOfStore = "AmmoNation (Sandy Shores)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
 	},
 	["AmmoNation11"] = {
-		position = { x = -1117.48, y = 2701.36, z = 18.01 },
+		position = { x = -1117.48, y = 2701.36, z = 18.55 },
 		nameOfStore = "AmmoNation (Sandy Shores)",
 		secondsRemaining = 200, -- seconds
 		lastRobbed = 0
