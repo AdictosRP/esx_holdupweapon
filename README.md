@@ -15,3 +15,6 @@ Add this in your server.cfg :
 ```
 start esx_holdupweapon
 ```
+
+
+You can change the reward on line 80 - 94 
