@@ -78,21 +78,17 @@ AddEventHandler('esx_holdupweapon:robberyStarted', function(currentStore)
 								
 								if number == 1 then
 									xPlayer.addWeapon('weapon_switchblade', 1)
-									xPlayer.addInventoryItem('suppressor', 1)
 								elseif number == 2 then
 									xPlayer.addWeapon('weapon_snspistol', 255)
-									xPlayer.addWeapon('weapon_flashlight', 1)
+									
 								elseif number == 3 then
-									xPlayer.addInventoryItem('MedArmor', 1)
+									xPlayer.addWeapon('weapon_flashlight', 1)
 								elseif number == 4 then
 									xPlayer.addWeapon('weapon_smg', 255)
-									xPlayer.addInventoryItem('yusuf', 2)
 								elseif number == 5 then
 									xPlayer.addWeapon('weapon_pumpshotgun', 255)
-									xPlayer.addInventoryItem('yusuf', 3)
 								elseif number == 6 then
 									xPlayer.addWeapon('weapon_pistol50', 255)
-									xPlayer.addInventoryItem('yusuf', 3)
 								else
 									Player.addWeapon('weapon_battleaxe', 1)
 									xPlayer.addWeapon('weapon_hammer', 1)
