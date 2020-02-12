@@ -2,9 +2,9 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'ESX Holdup'
+description 'ESX Holdup Weapon'
 
-version '1.1.0'
+version '1.0.0'
 
 client_scripts {
 	'@es_extended/locale.lua',
@@ -15,6 +15,7 @@ client_scripts {
 	'locales/fr.lua',
 	'locales/sv.lua',
 	'locales/pl.lua',
+	'locales/dk.lua',
 	'config.lua',
 	'client/main.lua'
 }
@@ -28,6 +29,7 @@ server_scripts {
 	'locales/fr.lua',
 	'locales/sv.lua',
 	'locales/pl.lua',
+	'locales/dk.lua',
 	'config.lua',
 	'server/main.lua'
 }
